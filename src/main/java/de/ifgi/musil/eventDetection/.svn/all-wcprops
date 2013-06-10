@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/eventdetection/!svn/ver/21/algorithm/src/main/java/de/ifgi/musil/eventDetection
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/Event.java
+END
+EventDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/EventDetector.java
+END

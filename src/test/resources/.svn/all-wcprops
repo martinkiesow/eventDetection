@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/eventdetection/!svn/ver/21/algorithm/src/test/resources
+END
+WINNIPEG_RIA_eng-hourly-03011964-03311964.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/eventdetection/!svn/ver/22/algorithm/src/test/resources/WINNIPEG_RIA_eng-hourly-03011964-03311964.xml
+END
+GIMLI_A_eng-hourly-03011964-03311964.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/eventdetection/!svn/ver/22/algorithm/src/test/resources/GIMLI_A_eng-hourly-03011964-03311964.xml
+END
+BRANDON_A_eng-hourly-03011964-03311964.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/eventdetection/!svn/ver/22/algorithm/src/test/resources/BRANDON_A_eng-hourly-03011964-03311964.xml
+END
+THE_PAS_A_eng-hourly-03011964-03311964.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/eventdetection/!svn/ver/22/algorithm/src/test/resources/THE_PAS_A_eng-hourly-03011964-03311964.xml
+END
+DAUPHIN_A_eng-hourly-03011964-03311964.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/eventdetection/!svn/ver/22/algorithm/src/test/resources/DAUPHIN_A_eng-hourly-03011964-03311964.xml
+END
+bulkschema_mod3.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/eventdetection/!svn/ver/20/algorithm/src/test/resources/bulkschema_mod3.xsd
+END

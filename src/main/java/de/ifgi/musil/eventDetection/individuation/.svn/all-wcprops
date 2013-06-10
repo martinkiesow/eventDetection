@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/eventdetection/!svn/ver/20/algorithm/src/main/java/de/ifgi/musil/eventDetection/individuation
+END
+IEventConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/individuation/IEventConstructor.java
+END
+WeatherEventConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/individuation/WeatherEventConstructor.java
+END

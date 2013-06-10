@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/eventdetection/!svn/ver/20/algorithm/src/main/java/de/ifgi/musil/eventDetection/classification
+END
+IEventClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/classification/IEventClassifier.java
+END
+BlizzardClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/classification/BlizzardClassifier.java
+END

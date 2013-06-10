@@ -1,0 +1,75 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="climatedata">
+		<xsd:complexType>
+			<xsd:sequence>
+				
+				<xsd:element name="lang">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="ENG"/>
+							<xsd:enumeration value="FRE"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+
+				<xsd:element name="legend">
+					<xsd:complexType>
+						<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+							<xsd:element name="flag">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="symbol"/>
+										<xsd:element name="description"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				
+				<xsd:element name="stationinformation"  minOccurs="1" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="name" type="xsd:string"/>
+							<xsd:element name="province" type="xsd:string"/>
+							<xsd:element name="latitude" type="xsd:double"/>
+							<xsd:element name="longitude" type="xsd:double"/>
+							<xsd:element name="elevation" type="xsd:double"/>
+							<xsd:element name="climate_identifier" type="xsd:integer"/>
+							<xsd:element name="wmo_identifier" type="xsd:integer"/>
+							<xsd:element name="tc_identifier" type="xsd:string"/>
+							<xsd:element name="note" type="xsd:string"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				
+				<!-- list of data entries to this station -->
+				<xsd:sequence>
+					<xsd:element name="stationdata" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="temp" type="xsd:double"/>
+								<xsd:element name="dptemp" type="xsd:double"/>
+								<xsd:element name="visibility" type="xsd:double"/>
+								<xsd:element name="relhum" type="xsd:double"/>
+								<xsd:element name="winddir" type="xsd:double"/>
+								<xsd:element name="windspd" type="xsd:double"/>
+								<xsd:element name="stnpress" type="xsd:double"/>
+								<xsd:element name="humidex" type="xsd:string"/>
+								<xsd:element name="windchill" type="xsd:double"/>
+								<xsd:element name="weather" type="xsd:string"/>
+							</xsd:sequence>
+							<xsd:attribute name="minute" type="xsd:string" use="required"/>
+							<xsd:attribute name="hour" type="xsd:string" use="required"/>
+							<xsd:attribute name="day" type="xsd:string" use="required"/>
+							<xsd:attribute name="month" type="xsd:string" use="required"/>
+							<xsd:attribute name="year" type="xsd:string" use="required"/>
+							<xsd:attribute name="quality" type="xsd:string"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+				
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

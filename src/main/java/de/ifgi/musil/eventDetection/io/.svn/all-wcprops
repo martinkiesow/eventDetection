@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/eventdetection/!svn/ver/21/algorithm/src/main/java/de/ifgi/musil/eventDetection/io
+END
+CNCAFocusParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/io/CNCAFocusParser.java
+END
+TextEventWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/eventdetection/!svn/ver/10/algorithm/src/main/java/de/ifgi/musil/eventDetection/io/TextEventWriter.java
+END
+IFocusParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/io/IFocusParser.java
+END
+IEventWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/io/IEventWriter.java
+END
+RDFEventWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/eventdetection/!svn/ver/22/algorithm/src/main/java/de/ifgi/musil/eventDetection/io/RDFEventWriter.java
+END
